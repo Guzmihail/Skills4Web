@@ -1,0 +1,109 @@
+.plug{
+    margin-top: 2.187rem;
+    margin-bottom: 3.25rem;
+    &-one{
+        &__bl{
+            display: flex;
+            justify-content: space-between;
+            &__medium{
+                background-color:#fff;
+                box-shadow: 4px 15px 40px rgba(0, 0, 0, 0.11);
+                padding-top: 0.362rem;
+                padding-left: 2.562rem;
+                padding-right: 2.937rem;
+                max-width: 22.375rem;
+                
+                .img-prew{
+                    background:url(../img/walper3/img-prew.png) center (center/cover) no-repeat;
+                    width:78px;
+                    height: 108px;
+                }
+                p{
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 140%;
+                }
+                span{
+                    max-width:16.875rem;
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 150%;
+                    display: block;
+                    margin-top:1.25rem;
+                    
+                }
+                .img-man1{
+                    background:url(../img/walper3/innovation__mono-1.png) center (center/cover) no-repeat;
+                    width: 295px;
+                    height: 198px;
+                    background-position-x: -35px;
+                }
+                .img-man2{
+                    background:url(../img/walper3/innovation__monochromatic-2.png) center (center/cover) no-repeat;
+                    width: 351px;
+                    height: 198px;
+                    background-position-x: -35px;
+                }
+                .img-man3{
+                    width: 217px;
+                    height: 198px;
+                    background:url(../img/walper3/businessman-1.png) center (center/cover) no-repeat;
+                    background-position-x:34px;
+                }
+            }
+        }
+        
+        &__mob{
+            background-color:#EDF5FB;
+            position: relative;
+            max-width: 16.875rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1.75rem;
+            padding-bottom: 1.75rem;
+            margin-top: 2.687rem;
+            display: none;
+            .one-mob{
+                display: block;
+                position: absolute;
+                background:url(../img/walper3/Group2.png) center (center/cover);
+                width: 2.375rem;
+                height: 2.125rem;
+                left: -8%;
+                top: 5%;
+                
+            }
+            p{
+                max-width: 14.312rem; 
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 160%;  
+                   
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                margin-top: 1.625rem;
+                border-radius: 4px;
+                background: #4505FB;
+                color:#fff;
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 160%;
+                padding: 1rem 0rem;
+                &:hover{
+                    box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.15);
+                }
+            }
+        }
+       
+    }
+}

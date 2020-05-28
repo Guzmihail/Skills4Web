@@ -1,0 +1,325 @@
+
+@media (max-width: 1301px){
+    // body{
+    //     overflow-X: hidden;
+    // }
+}
+@media (max-width: 1282px){
+    html,
+    body{
+        
+    }
+    .promo{
+        &-bl{
+            width: 100%;
+            &__left{
+                width: 50%;
+            }
+            &__right{
+                width: 50%;
+            }
+        }
+    }
+  
+}
+@media (max-width: 1234px){
+    .promo{
+        &-bl{
+            
+            &__left{
+                h2{
+                    font-size: 30px;
+
+                }
+                .price{
+                    width: 100%;
+                    .price-btn{
+                        line-height: 12px;
+                        padding: 1rem 1.25rem 1rem 1.25rem;
+                        font-size: 12px;
+                    }
+                    .price-prt{
+                        margin-left: 0rem;
+                    }
+                    .set{
+                        margin-right: 0.5rem;
+                        font-size: 9px;
+                    }
+                    .strikethroug{
+                        line-height: 52%;
+                        &::before{
+                            width: 57.87px;
+                            bottom:none;
+                        }
+                    }
+                    .price-prt__edit{
+                        margin-left: 1.187rem;
+                        margin-right: 1.875rem;
+                        p:nth-child(1){
+                            font-size: 19px;
+                        }
+                    }
+                    
+                }
+            }
+            &__right{
+                .elem-bl{
+                    span{
+                        background-size: contain!important;
+                    }
+                    span:nth-child(2){
+                        width: 180px;
+                        left: -70px;
+                    }
+                    span:nth-child(3){
+                        width: 178px;
+                        margin-left: 9.812rem;
+                    }
+                    span:nth-child(4){
+                        width: 161px;
+                        margin-left: 16.875rem;
+                        margin-top: 8.75rem;
+                    }
+                    span:nth-child(5){
+                        width: 252px;
+                        margin-left: 11.187rem;
+                    }
+                    span:nth-child(6){
+                        width: 245px;
+                        height: 247px;
+                    }
+                    span:nth-child(7){
+                        margin-left: 22rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1134px){
+    // .promo{
+    //     &-bl{
+    //         &__left{}
+    //         &__right{
+    //             .elem-bl{
+    //                 span:nth-child(2){
+    //                     margin-top: 8.687rem;
+    //                 }
+    //                 span:nth-child(3){
+    //                     margin-left: 6.812rem;
+    //                 }
+    //                 span:nth-child(4){
+    //                     margin-left: 21.875rem;
+    //                 }
+    //                 span:nth-child(5){
+    //                     margin-left: 17.187rem;
+    //                 }
+    //                 span:nth-child(6){
+    //                     margin-left: 1.187rem;
+    //                 }
+    //                 span:nth-child(7){
+    //                     margin-left: 27rem;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    // .promo{
+    //     &-bl{
+    //         &__right{
+    //             .elem-bl{
+    //                 span:nth-child(2){
+    //                     margin-top: 8.687rem;
+    //                 }
+    //                 span:nth-child(3){
+    //                     margin-left: 6.812rem;
+    //                 }
+    //                 span:nth-child(4){
+    //                     margin-left: 21.875rem;
+    //                 }
+    //                 span:nth-child(5){
+    //                     margin-left: 17.187rem;
+    //                 }
+    //                 span:nth-child(6){
+    //                     margin-left: 1.187rem;
+    //                 }
+    //                 span:nth-child(7){
+    //                     margin-left: 27rem;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    
+}
+@media (max-width: 1168px){
+    
+}
+@media (max-width: 1130px){
+    
+}
+
+@media (max-width: 1111px){
+ 
+}
+@media (max-width: 1089px){
+    
+}
+
+
+
+@media (max-width: 992px){
+    
+}
+
+
+@media (max-width: 983px){
+}
+
+@media (max-width: 883px){
+
+    .price{
+        display: flex;
+        flex-direction: column-reverse;
+
+        &-prt{
+
+        }
+    }
+  
+}
+
+
+
+
+@media (max-width: 770px){
+        .promo{
+            &-bl{
+                &__left{
+                    h2{
+                        margin-top: 1.937rem;
+                        margin-bottom: 1.5rem;
+                        font-size: 1.25rem;
+                    }
+                    .media-psed-1{
+                        max-width: 13.75rem;
+                        font-size: 0.875rem;
+                        br{
+                            display: none;
+                        }
+                    }
+                    .button-puls{
+                        width: 3.437rem;
+                        height: 3.437rem;
+                    }
+                    .box-puls{
+                        margin-top: 2.375rem;
+                        margin-bottom: 2.437rem;
+                        .media-psed-2{
+                            font-size:0.75rem ;
+                            margin-left: 2.375rem;
+                            max-width: 8.125rem;
+                            br{
+                                display: none;
+                            }
+                        }
+                    }
+
+                    
+                }
+                .price{
+                   max-width: 15rem;   
+                   padding: 1.25rem 1.062rem;  
+                   margin-bottom: 1.562rem;
+                   .price-btn{
+                       width: 100%;
+                   }
+                   .price-prt__edit{
+                       margin-left: 0;
+                       margin-right: 0;
+                       p{
+                        font-size: 24px;
+                       }
+                   }
+                   .set{
+                       max-width: 6.812rem;
+                       font-size: 0.75rem;
+                       br{
+                           display: none;
+                       }
+                       span{
+                           margin-right: 0.687rem;
+                       }
+                   }
+                }
+
+                &__right{
+                    .elem-bl{
+                        span:nth-child(1){
+                            width: 3.687rem;
+                            height: 3.687rem;
+                            margin-top: 2.75rem;
+                        }
+                        span:nth-child(2){
+                            width: 11.062rem;
+                            height: 8.75rem;
+                            margin-top: 4.75rem;
+                        }
+                        span:nth-child(3){
+                            width: 7.625rem;
+                            height:5.937rem ;
+                            margin-left: 7.25rem;
+
+                        }
+                        span:nth-child(4){
+                            width: 6.937rem;
+                            height: 9rem;
+                            margin-left: 16.437rem;
+                            margin-top: 5.75rem;
+                        }
+                        span:nth-child(5){
+                            width: 10.75rem;
+                            height: 9.625rem;
+                            margin-top: 7.25rem;
+                            margin-left: 12.187rem;
+                        }
+                        span:nth-child(6){
+                            width: 11.062rem;
+                            height: 9.375rem;
+                            margin-left: 3.687rem;
+                            margin-top:12.875rem;
+                        }
+                        span:nth-child(7){
+                            width: 2.937rem;
+                            height: 3.187rem;
+                            margin-left:18rem;
+                            margin-top: 18.312rem;
+                        }
+                    }
+                }
+            }
+        }
+
+}
+
+@media (max-width: 768px){
+    
+
+}
+
+
+
+
+@media (max-width: 576px){
+   
+}
+
+@media (max-width: 420px){
+}
+
+
+@media (max-width: 362px){   
+}

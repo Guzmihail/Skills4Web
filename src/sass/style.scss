@@ -1,0 +1,37 @@
+@import "./libs";
+@import "./global";
+@import "./fonts";
+@import"./models/vars";
+@import"./models/anim.scss";
+@import"./models/animation";
+
+
+@import"./models/header";
+@import"./models/menu-header";
+@import"./models/promo";
+@import"./models/price";
+@import"./models/wrap";
+@import"./models/preview";
+@import"./models/curs";
+@import"./models/plug";
+@import"./models/slider";
+@import"./models/program";
+@import"./models/discount";
+@import"./models/pretul";
+@import"./models/form";
+@import"./models/slider-2";
+@import"./models/abaunt";
+@import"./models/author";
+@import"./models/tilda";
+@import"./models/questions";
+@import"./models/footer";
+// Modal
+@import"./models/selected";
+
+
+.scroolHidden{
+    overflow-y: hidden!important;
+    overflow-X: hidden!important;
+  }
+
+@import "./media";

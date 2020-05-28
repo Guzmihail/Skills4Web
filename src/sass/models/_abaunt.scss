@@ -1,0 +1,49 @@
+.abaunt{
+    &-ctn{
+        display: flex;
+        align-items: center;
+        margin-bottom: 4.062rem;
+        &__left{
+            div{
+                max-width: 24.437rem;
+                min-height: 37rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        &__right{
+            margin-left: 5.25rem;
+            &__txt{
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 4.5rem;
+                    p{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 1.75rem;
+                        line-height: 120%;
+                    }
+                    img{
+                        margin-left: 1.375rem;
+                    }
+                }
+                p{
+                    
+                    max-width: 37.312rem;
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 1.25rem;
+                    line-height: 193%;
+                    span{
+                        border-bottom: 1px solid #000000;
+                    }
+                }
+            }
+        }
+    }
+}

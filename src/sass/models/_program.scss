@@ -1,0 +1,186 @@
+.program{
+    min-height: 781px;
+    background-color:#138BBD;
+    padding-top: 7.5rem;
+    position: relative;
+    .program-absolute{
+        position: absolute;
+        width: 50%;
+        min-height: 557px;
+        background-color:#fff;
+        right: 0;
+    }
+    
+    &-inr{
+        display: flex;
+        justify-content: space-between;
+
+        &__left{
+            
+            p{
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.75rem;
+                line-height: 120%;
+                color: #FFFFFF;
+            }
+            span{
+                display: block;
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.25rem;
+                line-height: 140%;
+                color:#fff;
+                margin-top: 2.937rem;
+                margin-bottom: 2.75rem;
+            }
+
+            &__bl{
+                div:nth-child(2){
+                    margin-bottom: 2.812rem;
+                    margin-top: 2.812rem;
+                }
+                div:nth-child(4){
+                    
+                    margin-top: 2.812rem;
+                }
+                &__box{
+                    display: flex;
+                    color:#fff;
+                    span{
+                        display: block;
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    p{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 1rem;
+                        line-height: 150%;
+                        max-width: 16.562rem;
+                        margin-left: 1.062rem;
+                    }
+                }
+            }
+            
+        }
+
+        &__right{
+            .bg-inr{
+                min-height: 34.812rem;
+                background-color:#fff;
+                min-width: 46.625rem;
+                position: relative;
+                padding-left: 7.125rem;
+                padding-top: 3.375rem;
+                .bg-inr-img{
+                    position: absolute;
+                    background:url(../img/walper3/Group-inr.png) center (center/cover) no-repeat;
+                    width: 6.937rem;
+                    height: 7.687rem;
+                    left: -9%;
+                    top: 10%;
+                }
+                .modul{
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1.25rem;
+                    line-height: 140%;
+                    position: relative;
+                    &:after{
+                        top: 50%;
+                        content:"";
+                        position: absolute;
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgb(216, 219, 9);
+                        margin-left: 2.375rem;
+                        // display: block;
+                        // left:  0;
+                        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
+
+                }
+                .inr-colm{
+                    display: flex;
+                    margin-top: 3.312rem;
+                    .inr-colm-left{
+                       
+                        
+                       
+                            .numb{
+                                
+                                &:nth-child(2){
+                                    margin-top: 1.5rem;
+                                    margin-bottom: 2rem;
+                                }
+                                
+                            }
+                        
+                        p:nth-child(5){
+                            margin-top: 0.875rem;
+                            margin-bottom: 0.875rem;;
+                        }
+                        p:nth-child(7){
+                            margin-top: 0.875rem;
+                            margin-bottom: 0.875rem;;
+                        }
+                        p:nth-child(9){
+                            margin-top: 0.875rem;
+                        }
+                       
+                       
+                    }
+                    .numb{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        line-height: 150%;
+                    }
+                    .posibiliti{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 1.125rem;
+                        line-height: 140%;
+                        color: #BDBDBD;
+                    }
+                    .posibiliti-set{
+                        margin-bottom:1.625rem ;
+                    }
+
+                    
+                    .inr-colm-right{
+                        margin-left: 6.437rem;
+                       p:nth-child(3){
+                        margin-top: 0.875rem;
+                        margin-bottom: 0.875rem;;
+                       }
+                       p:nth-child(5){
+                        margin-top: 0.875rem;
+                        margin-bottom: 0.875rem;;
+                       }
+                       p:nth-child(7){
+                        margin-top: 2.125rem;
+                        margin-bottom: 1.5rem;
+                       }
+                       p:nth-child(9){
+                        margin-top: 0.875rem;
+                       }
+                    }
+                   
+                }
+            }
+            
+        }
+    }
+}

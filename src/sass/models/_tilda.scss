@@ -1,0 +1,98 @@
+.tilda{
+    margin-top:7.812rem ;
+    min-height:770px;
+    &-ctn{
+        display: flex;
+      
+        .circle{
+            height: 48.125rem;
+            width: 48.125rem;
+            background-color:#EDF5FB;
+            border-radius:50%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;            
+             &:before{
+                 content:"";
+                 position: absolute;
+                 width: 1px;
+                 height: 100%;
+                 background-color:#E0E0E0;
+                 left: 0;
+             }
+             &:after{
+                content:"";
+                position: absolute;
+                width: 1px;
+                height: 100%;
+                background-color:#E0E0E0;
+                right: 0;
+                top: 0;
+            }
+            img{
+                margin-top: 7.875rem;
+            }
+            p{
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.75rem;
+                line-height: 120%;
+                margin-top: 6.5rem;
+                margin-bottom: 2.5rem;
+            }
+            span{
+                display: block;
+                max-width: 29.937rem;
+            }
+            .tilda-cursor{
+                cursor: pointer;
+            }
+        }
+
+
+        .paragraph{
+            margin-left: 4.937rem;
+           
+            position: relative;
+            &:before{
+                content:"";
+                position: absolute;
+                left: 0;
+                top: 0;
+                min-height: 770px;
+                width: 1px;
+                background-color:#E0E0E0;
+            }
+
+            p{
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.25rem;
+                line-height: 140%;
+                margin-bottom: 1.25rem;
+                
+            }
+            p:nth-child(1){
+                margin-top: 1.562rem;
+            }
+
+            span{
+                display: block;
+                max-width: 17.625rem;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 0.875rem;
+                line-height: 150%;
+                margin-bottom:5.812rem ;
+            }
+            span:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+
+    }
+}

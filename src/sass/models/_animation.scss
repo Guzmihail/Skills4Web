@@ -1,0 +1,185 @@
+ @-webkit-keyframes pulsemin {
+     0% {
+         webkit-transform: scale(0.9); 
+         transform: scale(0.9);
+       
+     }
+     70% {
+         transform: scale(1);
+         box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+     }
+       100% {
+         transform: scale(0.9);
+         box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+     }
+    
+  }
+  // Animation
+@-webkit-keyframes social-button-beat{
+    0%{
+        opacity: .8;
+        transform: scale(1);
+    }
+    
+
+70%{
+    opacity: 0;
+    transform: scale(1.5);
+}
+    
+
+100%{
+    opacity: 0
+}
+   
+}
+
+
+
+// @-webkit-keyframes pulse {
+//     0% {
+//       transform: scale(1, 1);
+//     }
+//     50% {
+//       opacity: 0.3;
+//     }
+//     100% {
+//       transform: scale(1.5);
+//       opacity: 1;
+//     }
+//   }
+// @keyframes pulse {
+//     0% {
+//       transform: scale(1, 1);
+//     }
+//     50% {
+//       opacity: 0.3;
+//     }
+//     100% {
+//       transform: scale(1.5);
+//       opacity: 1;
+//     }
+//   }
+
+.animate__leftRun {
+    -webkit-animation-name: leftRun;
+    animation-name: leftRun;
+  }
+@-webkit-keyframes leftRun {
+    from{
+        // transform: scale(1);
+        // transform: translateY(-50px);
+        right: -10px;
+    }
+    to{
+        // transform: translateY(0px);
+        right: 0;
+    }
+}
+
+@keyframes leftRun {
+    from{
+        // transform: scale(1);
+        transform: translateX(-50px);
+        //  transform: scale(0.8);
+    }
+    to{
+        transform: translateX(0px);
+        transform: scale(1);
+    }
+}
+
+// Elem 3
+
+.animate__elemTri {
+    -webkit-animation-name: elemTri;
+    animation-name: leftTri;
+  }
+@-webkit-keyframes leftTri {
+    from{
+        // transform: scale(1);
+        // transform: translateY(-50px);
+        top: -50px;
+    }
+    to{
+        // transform: translateY(0px);
+        top: 0;
+    }
+}
+
+
+.animate__elemPatr {
+    -webkit-animation-name: elemPatr;
+    animation-name: leftPatr;
+  }
+@-webkit-keyframes leftPatr {
+    from{
+        // transform: scale(1);
+         transform: translateX(-80px);
+        // top: -40px;
+        
+    }
+    to{
+        transform: translateX(0px);
+        
+    }
+}
+
+.animate__elemCin {
+    -webkit-animation-name: elemCin;
+    animation-name: leftCin;
+  }
+@-webkit-keyframes leftCin {
+    from{
+         
+        transform: translateY(-50px);
+        // top: -40px;
+        left: 80;
+    }
+    to{
+        transform: translateY(0px);
+        // top: 0;
+        left: 0;
+    }
+}
+
+
+.animate__elemSix {
+    -webkit-animation-name: elemSix;
+    animation-name: leftSix;
+  }
+@-webkit-keyframes leftSix {
+    from{
+         
+        transform: rotateZ(50deg);
+        // top: -40px;
+        left: 80;
+    }
+    to{
+        transform: rotateZ(0deg);
+        // top: 0;
+        left: 0;
+    }
+}
+
+// .animate__elemSev {
+//     -webkit-animation-name: elemSev;
+//     animation-name: leftSev;
+//   }
+// @-webkit-keyframes leftSev {
+//     from{
+         
+//         transform: (50deg);
+//         // top: -40px;
+//         left: 80;
+//     }
+//     to{
+//         transform: rotateZ(0deg);
+//         // top: 0;
+//         left: 0;
+//     }
+// }
+
+
+
+

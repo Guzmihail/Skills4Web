@@ -1,0 +1,84 @@
+.price{
+    padding-top: 1.062rem;
+    padding-bottom: 1.062rem;
+    padding-left:1.062rem;
+    padding-right: 2.062rem;
+    // padding-left:1.125rem ;
+    margin-bottom: 3.125rem;
+    // max-width: 38.25rem;
+    background: rgba(250, 229, 176, 0.5);
+    display: flex;
+    align-items: center;
+    &-btn{
+        font-family: $fontFamili;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        padding: 1rem 2.25rem 1rem 2.25rem;
+        cursor: pointer;
+
+
+        background: #4505FB;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        &:hover{
+            box-shadow: 0px 5px 28px -4px rgba(0,0,0,0.75);
+        }
+    }
+
+    &-prt{
+        display: flex;
+        align-items:center;
+       &__edit{
+            margin-left: 4.187rem;
+            margin-right: 1.875rem;
+            p:nth-child(1){
+                font-family:$fontFamili;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 120%;
+            }
+    
+            .strikethrough{
+                position: relative;
+                font-size: 16px;
+                line-height: 120%;
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: normal;
+            }
+            .strikethrough:before{
+                position: absolute;
+                content: "";
+                width: 57.87px;
+                height: 1.83px;
+                transform: rotate(-10deg);
+                background: #000000;
+                bottom: 9px;
+                // border-bottom: 1px solid #000000;
+            }
+        }
+       
+    }
+    .set{
+        // margin-right: 2.1rem;
+        font-family: $fontFamili;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        span{
+            background:none;
+            width: 100%;
+            display:unset;
+            font-weight: bold;
+            margin-left: 2px;
+
+        }
+    }
+}

@@ -1,0 +1,135 @@
+.preview{
+    min-height: 765px;
+    background-color:#EDF5FB;
+    position: relative;
+    margin-bottom: 6.75rem;
+    
+    .preview-linies{
+        height: 2px;
+        width: 100%;
+        background-color:rgba(0,0,0,0.15);
+        box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+    .pr{
+        display: block;
+        position: absolute;
+        z-index: 0;
+    }
+    .p1{
+        background:url(../img/walper3/Group.png) center (center/cover) no-repeat;
+        width: 3.812rem;
+        height: 5rem;
+        top: 70%;
+        
+    }
+    .p2{
+        background:url(../img/walper3/Group2.png) center (center/cover) no-repeat;
+        width:3.375rem;
+        height: 3.125rem;
+        right: 35%;
+    }
+    .p3{
+        background:url(../img/walper3/Group3.png) center (center/cover) no-repeat;
+        width: 8rem;
+        height: 10.437rem;
+        right: 0;
+    }
+
+    
+
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        &__left{
+            .preview-txt{
+                max-width: 28.437rem;
+                padding-top: 5.375rem;
+                p{
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 120%;
+                    margin-bottom:2rem ;
+                }
+                span{
+                    display: block;
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 140%;
+                }
+            }
+            .preview-cards{
+                display: flex;
+                &:nth-child(1){
+                    margin-bottom: 3.5rem;
+                }
+                .frame{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    max-width: 16.25rem;
+                    
+                    p{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 150%;
+                        text-align: center;
+                    }
+                }
+                .frame-pseod{
+                    margin-right: 7.875rem;
+                }
+            }
+            .preview-cards:nth-child(2){
+                margin-bottom: 3.5rem;
+                margin-top: 4.25rem;
+            }
+        }
+
+        &__right{
+            padding-top: 12.1875rem;
+            position: relative;
+         
+            .bocks{
+                position: relative;
+                min-height: 35.625rem;
+                background-color: #FFFFFF;
+                padding-top: 4.25rem;
+                padding-left: 5.687rem;
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                z-index: 5;
+                 &::before{
+                     content: "";
+                     position: absolute;
+                     height: 100%;
+                     width: 100%;
+                     background-color: #FFFFFF;
+                    //  right: -100%;
+                     top: 0;
+                     z-index: -1;
+                 }
+                    p{
+                        
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 150%;
+                        max-width: 16.75rem;
+                    }
+                    
+                    img{
+
+                    }
+            }
+          
+        }
+    }
+}

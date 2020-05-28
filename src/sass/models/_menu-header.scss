@@ -1,0 +1,135 @@
+.menu{
+    position: relative;
+    .menu-lines{
+        z-index: 2;
+
+        
+    }
+    .inr{
+        position: relative;
+        width: 24px;
+        left: -20px;
+        top: 2px;
+
+        .car-bg{
+            display: none;
+        }
+        span{
+            position: absolute;
+        }
+        span:nth-child(1){
+            transform: rotate(-45deg);
+            transition: .3s ease;
+            top: 3px;
+            
+        }
+        span:nth-child(2){
+            transform: rotate(45deg);
+            width: 30px;
+            top: -50%;
+            transition: .3s ease;
+        }
+    }
+   
+    nav{
+        
+        
+        .list{
+            position: fixed;
+            height: 100vh;
+            background-color:#fff;
+            width: 50%;
+            margin-left: -15.625rem;
+            z-index: 1;
+            top: 0;
+            display: none;
+            padding-top: 6rem;
+            padding-left: 2rem;
+           
+            li{
+                
+               
+                a{
+                    background:none!important;
+                    font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 2rem;
+                        line-height: 1rem;
+                        margin: 0!important;
+                        width: 100%!important;
+                        transition: .2s ease;
+                }
+                a:hover{
+                    transition: .2s ease;
+                    color:#66D8E8!important;
+               }
+                
+            }
+            li:nth-child(1){
+                margin-top: 3.5rem;
+               
+            }
+            li:nth-child(2){
+                margin-top: 3.5rem;
+                margin-bottom: 3.5rem;
+            }
+            li:nth-child(4){
+                margin-top: 3.5rem;
+                margin-bottom: 3.5rem;
+            }
+            li:nth-child(6){
+                margin-top: 3.5rem;
+                
+            }
+          
+            
+        }
+        .open{
+            display: block!important;
+            -webkit-animation-name:fadeInRight;
+                animation-name:fadeInRight;
+                -webkit-animation-duration: .2s;
+                        animation-duration: .2s;
+                        li:nth-child(1){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: .9s;
+                                    animation-duration: .9s;
+                        }
+                        li:nth-child(2){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
+                        }
+                        li:nth-child(3){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: 1.2s;
+                                    animation-duration: 1.2s;
+                        }
+                        li:nth-child(4){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: 1.4s;
+                                    animation-duration: 1.4s;
+                        }
+                        li:nth-child(5){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: 1.6s;
+                                    animation-duration: 1.6s;
+                        }
+                        li:nth-child(6){
+                            -webkit-animation-name:lightSpeedInRight;
+                            animation-name:lightSpeedInRight;
+                            -webkit-animation-duration: 1.9s;
+                                    animation-duration: 1.9s;
+                        }
+                       
+        }
+        
+        
+    }
+}

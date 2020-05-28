@@ -1,0 +1,52 @@
+.author{
+    &-ctn{
+        display: flex;
+        justify-content: space-around;
+        
+        &__cards{
+            .author-bg{
+                width: 15rem;
+                min-height: 15rem;
+                border-radius:50%;
+                background-color:rgba(68, 4, 251, 0.5);
+                position: relative;
+                margin-bottom: 2.062rem;
+                &::before{
+                    content:"";
+                    position: absolute;
+                    background:url(../img/walper3/author.png) center (center/cover) no-repeat;
+                    height: 17.312rem;
+                    width: 15rem;
+                    top: -37px;
+                }
+            }
+            
+            .bg2{
+                    background-color:rgba(255, 195, 151, 0.5);
+                }
+            
+         
+                .bg3{
+                    background-color:rgba(42, 245, 255, 0.5);
+                }
+            
+            p{
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 150%;
+                text-align: center;
+            }
+            span{
+                display: block;
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 0.875rem;
+                line-height: 150%;
+                text-align: center;
+            }
+        }
+    }
+}

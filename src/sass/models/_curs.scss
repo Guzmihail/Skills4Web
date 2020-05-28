@@ -1,0 +1,79 @@
+.curs{
+    &-bl{
+        margin-bottom: 4.375rem;
+        .cr{
+            font-family: $fontFamili;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 120%;
+            
+        }
+    }
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2.187rem;
+        &__left{
+            
+            p{
+                max-width: 22.375rem;
+                font-family: $fontFamili;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 160%;
+            }
+        }
+        &__right{
+            .consultation-cards{
+                position: relative;
+                background-color:#EDF5FB;
+                display: flex;
+                align-items:center;
+                padding-top: 2.5rem;
+                padding-bottom: 1.6rem;
+                padding-left: 3.25rem;
+                padding-right:1.562rem ;
+                .nl{
+                    position: absolute;
+                    display: block;
+                    background:url(../img/walper3/Group2.png) center (center/cover) no-repeat;
+                    width: 3.375rem;
+                    height: 3.125rem;
+                    left: -5%;
+                    top: 5%;
+                }
+                p{
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 160%;
+                    max-width:17.75rem ;
+                }
+                .link-consultations{
+                    border:none;
+                    background: #4505FB;
+                    border-radius: 4px;
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color:#fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    padding: 0rem  2rem;
+                    min-height:3.625rem ;
+                    margin-left: 2.562rem;
+                    &:hover{
+                        box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+        }
+    }
+}

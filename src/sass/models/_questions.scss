@@ -1,0 +1,68 @@
+.questions{
+    margin-top: 7.812rem;
+    &-ctn{
+        .ctn-titel{
+            font-family: $fontFamili;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.75rem;
+            line-height: 120%;
+            margin-bottom: 4.15rem;
+        }
+        .acardion{
+            .acardion-items{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #E0E0E0;
+                padding: 3rem 0rem;
+                // min-height: 7.187rem;
+                cursor: pointer;
+                .acitems-title{
+                    font-family: $fontFamili;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    line-height: 1.875rem;
+                    margin-left: 0.75rem;
+                }
+                .icon-acordion{
+                        background:url(../img/icon/Vector.png) center (center/contain) no-repeat;
+                        height: 0.833rem;
+                        width: 0.521rem;
+                        margin-right: 0.812rem;
+                        transition: .3s ease;
+                    }
+                
+            }
+            .acardion-items:nth-child(1){
+                border-top: 1px solid #E0E0E0;
+            }
+            .expand{
+                .icon-acordion{
+                    transform: rotate(180deg);
+                    transition: .3s ease;
+                }
+            }
+
+            .card{
+                
+                display: none;
+                width: 100%;
+                .card-body{
+                    margin-top: 1.75rem;
+                    margin-left: 0.75rem;
+                    p{
+                        font-family: $fontFamili;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 0.875rem;
+                        line-height: 21px;
+                        max-width: 46.562rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
